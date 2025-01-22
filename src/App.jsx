@@ -8,6 +8,8 @@ import HomePage from "./pages/Home";
 import Airdrop from "./pages/Airdrop";
 import Shop from "./pages/Shop";
 import Earn from "./pages/Earn";
+// import Invite from "./pages/Invite";
+// import Leaderboard from "./pages/Leaderboard";
 
 function App() {
   return (

@@ -13,9 +13,14 @@ const Earn = () => {
           title: "Join HMP GEM",
           reward: "+1500 $HART",
         },
+        {
+          id: 3,
+          title: "Join HMP GEM",
+          reward: "+1500 $HART",
+        },
       ];
   return (
-    <div className="min-h-screen bg-gradient-to-b from-dark-blue to-black text-white px-4 py-6 space-y-6 mb-32">
+    <div className="min-h-screen bg-[#0F1933] text-white px-4 py-6 space-y-6 mb-32">
       {/* Limited Tasks Section */}
       <section>
         <h2 className="text-lg font-semibold mb-1">Limited tasks</h2>
@@ -52,8 +57,9 @@ const Earn = () => {
               <ButtonLg
                 text="20,000"
                 icon="../../public/icons/shop-love.svg"
+                iconPosition="before"
                 className="bg-[#25396A] py-2 rounded-full text-white shadow-lg text-sm px-3"
-                onClick={() => console.log("Start Farming Clicked")}
+                onClick={() => console.log("Loved 20,000 Clicked")}
               />
             </div>
           </div>
@@ -61,7 +67,7 @@ const Earn = () => {
             <ButtonLg
               text="Invite Friend"
               className="w-full gradient-button py-2 rounded-xl text-white font-medium shadow-lg px-4"
-              onClick={() => console.log("Start Farming Clicked")}
+              onClick={() => console.log("Invite friend Clicked")}
             />
           </div>
         </div>
@@ -88,6 +94,7 @@ const Earn = () => {
             <ButtonLg
               text="Create Telegram Story"
               icon="../../public/icons/instgram.svg"
+              iconPosition="after"
               className="w-full py-2 rounded-rounded bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-center font-medium"
               onClick={() => console.log("Create story Clicked")}
             />
