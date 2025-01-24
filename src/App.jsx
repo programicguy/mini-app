@@ -7,11 +7,11 @@ import UpgradePage from "./pages/Upgrade";
 import HomePage from "./pages/Home";
 import Airdrop from "./pages/Airdrop";
 import Shop from "./pages/Shop";
-import Earn from "./pages/Earn";
+// import Earn from "./pages/Earn";
 // import Invite from "./pages/Invite";
 // import Leaderboard from "./pages/Leaderboard";
-import Box from "./pages/Box";
-import OpenBox from "./pages/OpenBox";
+// import Box from "./pages/Box";
+// import OpenBox from "./pages/OpenBox";
 import Withdraw from "./pages/Widthdraw";
 
 function App() {

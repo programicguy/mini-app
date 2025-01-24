@@ -15,7 +15,7 @@ function Withdraw() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle withdrawal logic here
+    // Handle withdrawal logic
     console.log("Withdrawing:", withdrawalAmount, "TON to", tonAddress);
   };
 
