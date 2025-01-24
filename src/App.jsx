@@ -7,12 +7,12 @@ import UpgradePage from "./pages/Upgrade";
 import HomePage from "./pages/Home";
 import Airdrop from "./pages/Airdrop";
 import Shop from "./pages/Shop";
-// import Earn from "./pages/Earn";
+import Earn from "./pages/Earn";
 // import Invite from "./pages/Invite";
 // import Leaderboard from "./pages/Leaderboard";
 // import Box from "./pages/Box";
 // import OpenBox from "./pages/OpenBox";
-import Withdraw from "./pages/Widthdraw";
+// import Withdraw from "./pages/Widthdraw";
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
             <Route path="/upgrade" element={<UpgradePage />} />
             <Route path="/airdrop" element={<Airdrop />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/earn" element={<Withdraw />} />
+            <Route path="/earn" element={<Earn />} />
             <Route path="*" element={<div>404 - Page Not Found</div>} />
           </Routes>
         </div>
