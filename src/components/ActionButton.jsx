@@ -28,6 +28,7 @@ export function ActionButton() {
         <div className="w-full">
           <ButtonLg
             text="Start Farming"
+            // You can add icon also like below way-----------
             // icon="../../public/icons/gift.svg"
             className="w-full gradient-button py-3 rounded-[17px] text-white font-medium shadow-lg px-4"
             onClick={() => console.log("Start Farming Clicked")}
