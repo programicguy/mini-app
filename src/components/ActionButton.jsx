@@ -6,7 +6,7 @@ export function ActionButton() {
     <div className="p-4">
       <div className="flex flex-col items-center gap-4">
         <div className="flex justify-between w-full px-4">
-          {/* Replace with your icon files */}
+          {/* Icons */}
           <div className="w-15 h-15 rounded-full p-3 bg-gray-800/90 flex items-center justify-center">
             <img
               src="../../public/icons/store.svg"
