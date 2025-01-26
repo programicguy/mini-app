@@ -10,7 +10,6 @@ const UpgradePage = lazy(() => import("./pages/Upgrade"));
 const Airdrop = lazy(() => import("./pages/Airdrop"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Earn = lazy(() => import("./pages/Earn"));
-// Add additional pages as needed
 // const Invite = lazy(() => import("./pages/Invite"));
 // const Leaderboard = lazy(() => import("./pages/Leaderboard"));
 // const Box = lazy(() => import("./pages/Box"));
