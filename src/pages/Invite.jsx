@@ -2,6 +2,7 @@ import React from "react";
 import ButtonLg from "../components/ButtonLg";
 
 const Invite = () => {
+  // Handdle copy functionlity 
   const handleCopy = () => {
     const referralLink = "https://t.me/botdrop1Idfdfd1?startapp=dgd...";
     navigator.clipboard.writeText(referralLink);
