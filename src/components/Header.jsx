@@ -10,20 +10,20 @@ export function Header() {
       {/* Button with icon and counter */}
       <div className="relative flex items-center bg-[#152A5B] rounded-full">
         {/* Button with single icon and text */}
-        <ButtonGroup iconSrc="../../public/icon-1.svg" text="10k" />
+        <ButtonGroup iconSrc="icon-1.svg" text="10k" />
         <div className="absolute top-0 right-0">
-          <img src="../../public/plus.svg" alt="plus" className="w-4 h-4" />
+          <img src="plus.svg" alt="plus" className="w-4 h-4" />
         </div>
       </div>
 
       {/* Button with single icon and text */}
-      <ButtonGroup iconSrc="../../public/icon-2.svg" text="0.05" />
+      <ButtonGroup iconSrc="icon-2.svg" text="0.05" />
 
       {/* Gradient button with two icons and text */}
       <ButtonGroup
-        iconSrc="../../public/icon-3.svg"
+        iconSrc="icon-3.svg"
         text="Cash"
-        additionalIconSrc="../../public/icon-4.svg"
+        additionalIconSrc="public/icon-4.svg"
         gradient
       />
     </div>
