@@ -31,7 +31,7 @@ const Earn = () => {
           </span>
           <button>
             <img
-              src="../../public/right-arrow.svg"
+              src="right-arrow.svg"
               alt="Limited Task right arrow"
               className="w-4 h-4 mr-2"
             />
@@ -56,7 +56,7 @@ const Earn = () => {
             <div className="absolute top-0 right-0">
               <ButtonLg
                 text="20,000"
-                icon="../../public/shop-love.svg"
+                icon="shop-love.svg"
                 iconPosition="before"
                 className="bg-[#25396A] py-2 rounded-full text-white shadow-lg text-sm px-3"
                 onClick={() => console.log("Loved 20,000 Clicked")}
@@ -75,7 +75,7 @@ const Earn = () => {
           <span className="px-5 py-3">0 Friends invited</span>
           <button>
             <img
-              src="../../public/right-arrow.svg"
+              src="right-arrow.svg"
               alt="Limited Task right arrow"
               className="w-4 h-4 mr-2"
             />
@@ -93,7 +93,7 @@ const Earn = () => {
           <div className="">
             <ButtonLg
               text="Create Telegram Story"
-              icon="../../public/instgram.svg"
+              icon="instgram.svg"
               iconPosition="after"
               className="w-full py-2 rounded-rounded bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center text-center font-medium"
               onClick={() => console.log("Create story Clicked")}

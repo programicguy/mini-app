@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";
+import Loader from "./components/Loader"
 import { Header } from "./components/Header";
 import { BottomNav } from "./components/BottomNav";
 
@@ -25,9 +26,7 @@ function App() {
 
         {/* Dynamic Content Area */}
         <div className="flex-1 overflow-y-auto">
-          <Suspense
-            fallback={<div className="text-center py-4">Loading...</div>}
-          >
+          <Suspense fallback={<Loader />}>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/upgrade" element={<UpgradePage />} />

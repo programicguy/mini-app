@@ -23,7 +23,7 @@ export function Header() {
       <ButtonGroup
         iconSrc="icon-3.svg"
         text="Cash"
-        additionalIconSrc="public/icon-4.svg"
+        additionalIconSrc="icon-4.svg"
         gradient
       />
     </div>
