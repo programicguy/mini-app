@@ -9,8 +9,9 @@ const Upgrade = () => {
       percentage: 3,
       coins: 500,
       level: 1,
-      icon: "books",
+      icon: "goggles",
       progress: 20,
+      isDisabled: false,
     },
     {
       title: "Magic Book",
@@ -18,8 +19,9 @@ const Upgrade = () => {
       percentage: 5,
       coins: 500,
       level: 2,
-      icon: "upgrade-card-icon-2",
+      icon: "syringe",
       progress: 40,
+      isDisabled: true,
     },
     {
       title: "Magic Book",
@@ -27,8 +29,9 @@ const Upgrade = () => {
       percentage: 2,
       coins: 500,
       level: 1,
-      icon: "upgrade-card-icon-3",
+      icon: "cap",
       progress: 40,
+      isDisabled: false,
     },
     {
       title: "Magic Book",
@@ -36,8 +39,9 @@ const Upgrade = () => {
       percentage: 4,
       coins: 500,
       level: 3,
-      icon: "upgrade-card-icon-4",
-      progress: 80,
+      icon: "thermometer",
+      progress: 10,
+      isDisabled: false,
     },
     {
       title: "Magic Book",
@@ -45,8 +49,9 @@ const Upgrade = () => {
       percentage: 6,
       coins: 500,
       level: 4,
-      icon: "upgrade-card-icon-5",
-      progress: 90,
+      icon: "box",
+      progress: 30,
+      isDisabled: false,
     },
   ];
 

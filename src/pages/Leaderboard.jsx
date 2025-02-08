@@ -70,7 +70,7 @@ const Leaderboard = () => {
           disabled={level === 1}
         >
           <img
-            src="../../public/icons/right-arrow.svg"
+            src="../../public/right-arrow.svg"
             alt="Previous"
             className="w-4 h-4 rotate-180"
           />
@@ -86,7 +86,7 @@ const Leaderboard = () => {
           disabled={level === 2}
         >
           <img
-            src="../../public/icons/right-arrow.svg"
+            src="../../public/right-arrow.svg"
             alt="Next"
             className="w-4 h-4"
           />
@@ -104,14 +104,14 @@ const Leaderboard = () => {
             />
             <div className="absolute">
               <img
-                src="../../public/icons/leaderboard-profile-bg.svg"
+                src="../../public/leaderboard-profile-bg.svg"
                 alt="Leaderboard podium"
                 className="w-full h-full"
               />
             </div>
             <div className="absolute -top-6 -right-5">
               <img
-                src="../../public/icons/rank-badge-two.svg"
+                src="../../public/rank-badge-two.svg"
                 alt="Leaderboard podium"
                 className="w-10 h-10"
               />
@@ -119,7 +119,7 @@ const Leaderboard = () => {
             <p className="text-sm mb-2">{players[1]?.name}</p>
             <div className="flex items-center gap-1 bg-[#112146] px-3 py-2 rounded-full -mb-5">
               <img
-                src="../../public/icons/shop-love.svg"
+                src="../../public/shop-love.svg"
                 alt="Trophy"
                 className={`w-4 h-4 ${getMedalColor(2)}`}
               />
@@ -138,14 +138,14 @@ const Leaderboard = () => {
             />
             <div className="absolute">
               <img
-                src="../../public/icons/leaderboard-profile-bg.svg"
+                src="../../public/leaderboard-profile-bg.svg"
                 alt="Leaderboard podium"
                 className="w-full h-full"
               />
             </div>
             <div className="absolute -top-6 -right-5">
               <img
-                src="../../public/icons/rank-badge-one.svg"
+                src="../../public/rank-badge-one.svg"
                 alt="Leaderboard podium"
                 className="w-12 h-12"
               />
@@ -153,7 +153,7 @@ const Leaderboard = () => {
             <p className="text-sm mb-2">{players[0]?.name}</p>
             <div className="flex items-center gap-1 bg-[#112146] px-3 py-2 rounded-full">
               <img
-                src="../../public/icons/shop-love.svg"
+                src="../../public/shop-love.svg"
                 alt="Trophy"
                 className={`w-4 h-4 ${getMedalColor(1)}`}
               />
@@ -172,14 +172,14 @@ const Leaderboard = () => {
             />
             <div className="absolute">
               <img
-                src="../../public/icons/leaderboard-profile-bg.svg"
+                src="../../public/leaderboard-profile-bg.svg"
                 alt="Leaderboard podium"
                 className="w-full h-full"
               />
             </div>
             <div className="absolute -top-6 -right-5">
               <img
-                src="../../public/icons/rank-badge-three.svg"
+                src="../../public/rank-badge-three.svg"
                 alt="Leaderboard podium"
                 className="w-12 h-12"
               />
@@ -187,7 +187,7 @@ const Leaderboard = () => {
             <p className="text-sm mb-2">{players[2]?.name}</p>
             <div className="flex items-center gap-1 bg-[#112146] px-3 py-2 rounded-full -mb-10 ml-3">
               <img
-                src="../../public/icons/shop-love.svg"
+                src="../../public/shop-love.svg"
                 alt="Trophy"
                 className={`w-4 h-4 ${getMedalColor(3)}`}
               />
@@ -204,21 +204,21 @@ const Leaderboard = () => {
           <div className="relative flex items-center justify-evenly">
             <div className="absolute top-12">
               <img
-                src="../../public/icons/one.svg"
+                src="../../public/one.svg"
                 alt="Leaderboard podium"
                 className="w-4"
               />
             </div>
             <div className="absolute top-16 left-20">
               <img
-                src="../../public/icons/two.svg"
+                src="../../public/two.svg"
                 alt="Leaderboard podium"
                 className="w-full h-10 "
               />
             </div>
             <div className="absolute top-[85px] right-20">
               <img
-                src="../../public/icons/three.svg"
+                src="../../public/three.svg"
                 alt="Leaderboard podium"
                 className="w-full h-9"
               />
@@ -226,7 +226,7 @@ const Leaderboard = () => {
           </div>
           <div>
             <img
-              src="../../public/icons/leaderboard-bg.svg"
+              src="../../public/leaderboard-bg.svg"
               alt="Leaderboard podium"
               className="w-full"
             />

@@ -3,42 +3,42 @@ import BuyCard from "../components/BuyCard";
 import ShopSkinCard from "../components/ShopSkinCard";
 
 const Shop = () => {
-  // Data for the BuyCards and ShopSkinCards
+  // Data for the BuyCards
   const buyCardData = [
     {
-      bgImage: "../../public/icons/shop-card-bg.svg",
-      itemImage: "../../public/icons/shop-love.svg",
+      bgImage: "../../public/shop-card-bg.svg",
+      itemImage: "../../public/shop-love.svg",
       promo: "",
       promoTwo: "",
       name: "50k",
       status: "Buy",
-      iconSrc: "../../public/icons/shop-love.svg",
+      iconSrc: "../../public/shop-love.svg",
     },
     {
-      bgImage: "../../public/icons/shop-card-bg.svg",
-      itemImage: "../../public/icons/shop-group-love.svg",
+      bgImage: "../../public/shop-card-bg.svg",
+      itemImage: "../../public/shop-group-love.svg",
       promo: "-20%",
       name: "100k",
       status: "Buy",
-      iconSrc: "../../public/icons/shop-love.svg",
+      iconSrc: "../../public/shop-love.svg",
     },
     {
-      bgImage: "../../public/icons/shop-card-bg.svg",
-      itemImage: "../../public/icons/shop-love-bag.svg",
+      bgImage: "../../public/shop-card-bg.svg",
+      itemImage: "../../public/shop-love-bag.svg",
       promo: "Gamers choice",
       promoTwo: "-30%",
       name: "500k",
       status: "Buy",
-      iconSrc: "../../public/icons/shop-love.svg",
+      iconSrc: "../../public/shop-love.svg",
     },
     {
-      bgImage: "../../public/icons/shop-card-bg.svg",
-      itemImage: "../../public/icons/shop-group-loves.svg",
+      bgImage: "../../public/shop-card-bg.svg",
+      itemImage: "../../public/shop-group-loves.svg",
       promo: "Most profit",
       promoTwo: "-40%",
       name: "1m",
       status: "Buy",
-      iconSrc: "../../public/icons/shop-love.svg",
+      iconSrc: "../../public/shop-love.svg",
     },
   ];
 

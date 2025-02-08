@@ -7,14 +7,14 @@ const OpenBox = () => {
         <div className="relative">
           <div>
             <img
-              src="../../public/icons/shop-card-bg.svg"
+              src="../../public/shop-card-bg.svg"
               alt="Diamond"
               className="w-64 h-64 object-cover animate-scale-rotate"
             />
           </div>
           <div className="absolute -top-10">
             <img
-              src="../../public/icons/open-box.svg"
+              src="../../public/open-box.svg"
               alt="Diamond"
               className="w-56 h-56"
             />

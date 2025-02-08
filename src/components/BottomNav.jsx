@@ -5,7 +5,7 @@ const NavButton = ({ label, icon, to }) => (
   <Link to={to}>
     <button className="flex flex-col items-center">
       <div className="w-12 h-12 rounded-full flex items-center justify-center">
-        <img src={`/icons/${icon}.svg`} alt={label} className="w-9 h-9" />
+        <img src={`/public/${icon}.svg`} alt={label} className="w-10 h-8" />
       </div>
       <span className="text-xs mt-1">{label}</span>
     </button>

@@ -13,8 +13,8 @@ const AirdropPage = () => {
       name: "Book",
       promo: "Basic",
       status: "Enabled",
-      bgImage: "../../public/icons/card-bg.svg",
-      itemImage: "../../public/icons/upgrade-card-icon-2.svg",
+      bgImage: "../../public/card-bg.svg",
+      itemImage: "../../public/upgrade-card-icon-2.svg",
     },
   ];
 
@@ -38,7 +38,7 @@ const AirdropPage = () => {
       <div className="flex items-center justify-end">
         <button className="bg-[#152241] p-2 rounded-full select-none">
           <img
-            src="../../public/icons/profile-setting.svg"
+            src="../../public/profile-setting.svg"
             alt="Settings"
             className="w-6 h-6"
           />
@@ -62,7 +62,7 @@ const AirdropPage = () => {
       <div className="w-full">
         <ButtonLg
           text="Connect Wallet"
-          // icon="../../public/icons/gift.svg"
+          // icon="../../public/gift.svg"
           className="w-full gradient-button py-2 rounded-xl text-white shadow-lg px-4 mt-4"
           onClick={() => console.log("Connect Wallet Clicked")}
         />
@@ -79,7 +79,7 @@ const AirdropPage = () => {
           <div className="bg-[#20376C] px-4 py-3 rounded-lg text-[#7782A6] select-none">
             <span className="text-sm font-semibold flex items-center">
               <img
-                src="../../public/icons/lock.svg"
+                src="../../public/lock.svg"
                 alt="Lock"
                 className="w-4 h-4 mr-1"
               />

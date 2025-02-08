@@ -41,12 +41,12 @@ const Invite = () => {
           >
             <div className="relative">
               <img
-                src="../../public/icons/copy-2.svg"
+                src="../../public/copy-2.svg"
                 alt="Copy Icon"
                 className="w-5 h-3"
               />
               <img
-                src="../../public/icons/copy-2.svg"
+                src="../../public/copy-2.svg"
                 alt="Copy Icon"
                 className="w-4 h-3 absolute top-1 right-0"
               />
@@ -65,7 +65,7 @@ const Invite = () => {
             <div className="flex items-center justify-center">
               <span>Open</span>
               <img
-                src="../../public/icons/right-arrow.svg"
+                src="../../public/right-arrow.svg"
                 alt="Open Icon"
                 className="w-4 h-4 ml-2"
               />

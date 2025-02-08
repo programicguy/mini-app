@@ -23,7 +23,7 @@ const Box = () => {
         {/* Close Button */}
         <button className="absolute top-4 right-4 text-gray-400 hover:text-white text-lg">
           <img
-            src="../../public/icons/close-circle.svg"
+            src="../../public/close-circle.svg"
             alt="Cloase"
             className="w-12 h-12 bg-[#D9D9D940] p-2 rounded-full"
           />
@@ -33,14 +33,14 @@ const Box = () => {
         <div className="flex justify-center relative">
           <div className="w-36 h-36">
             <img
-              src="../../public/icons/shop-card-bg.svg"
+              src="../../public/shop-card-bg.svg"
               alt="Diamond"
               className="w-full h-full object-contain animate-scale-rotate"
             />
           </div>
           <div className="w-24 h-24 absolute top-5">
             <img
-              src="../../public/icons/silver-diamond.svg"
+              src="../../public/silver-diamond.svg"
               alt="Diamond"
               className="w-full h-full object-contain"
             />
@@ -63,7 +63,7 @@ const Box = () => {
           </button>
           <div className="w-20 h-20 flex items-center justify-center bg-[#539CBE40] rounded-full relative">
             <img
-              src="../../public/icons/gift.svg"
+              src="../../public/gift.svg"
               alt="Diamond"
               className="w-12 h-12"
             />
