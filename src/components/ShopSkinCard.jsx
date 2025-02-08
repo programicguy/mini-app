@@ -43,8 +43,8 @@ const Shop = () => {
   // The array of card data
   const cardData = [
     {
-      bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/thermometer.svg",
+      bgImage: "/shop-skins-bg.svg",
+      itemImage: "thermometer.svg",
       promo: "18k - Hourly",
       name: "Thermometer",
       status: "BUY",
@@ -53,7 +53,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/gloves.svg",
+      itemImage: "gloves.svg",
       promo: "25k - Hourly",
       name: "Gloves",
       status: "BUY",
@@ -62,7 +62,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/cap.svg",
+      itemImage: "cap.svg",
       promo: "30k - Hourly",
       name: "Cap",
       status: "BUY",
@@ -71,7 +71,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/dress.svg",
+      itemImage: "dress.svg",
       promo: "45k - Hourly",
       name: "Dress",
       status: "BUY",
@@ -80,7 +80,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/box-2.svg",
+      itemImage: "box-2.svg",
       promo: "60k - Hourly",
       name: "Box",
       status: "BUY",
@@ -89,7 +89,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/sanitizar.svg",
+      itemImage: "sanitizar.svg",
       promo: "90k - Hourly",
       name: "Sanitizer",
       status: "BUY",
@@ -98,7 +98,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/stethoscope.svg",
+      itemImage: "stethoscope.svg",
       promo: "120k - Hourly",
       name: "Stethoscope",
       status: "BUY",
@@ -107,7 +107,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/cap.svg",
+      itemImage: "cap.svg",
       promo: "150k - Hourly",
       name: "Cap",
       status: "BUY",
@@ -116,7 +116,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/syringe.svg",
+      itemImage: "syringe.svg",
       promo: "200k - Hourly",
       name: "Syringe",
       status: "BUY",
@@ -125,7 +125,7 @@ const Shop = () => {
     },
     {
       bgImage: "../../public/shop-skins-bg.svg",
-      itemImage: "../../public/goggles.svg",
+      itemImage: "goggles.svg",
       promo: "500k - Hourly",
       name: "Goggles",
       status: "BUY",
